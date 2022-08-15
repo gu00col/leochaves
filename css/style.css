@@ -1,0 +1,122 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Geral */
+
+* {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+body {
+    background: #000000 !important;
+}
+
+/* Cores */
+
+/* 
+Amarelo #FFD700
+
+*/
+
+/* Textos */
+
+.text-destaque {
+    color: #FFD700 !important;
+}
+
+/* CTA TOPO */
+
+#cta-topo {
+    background-image: url('../img/leochaves_palestrando.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: right;
+    max-height: 728px;
+    min-height: 728px;
+    
+}
+#cta-topo>div{
+    min-height: 728px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#cta-topo h1 {
+    font-weight: bold !important;
+    /* font-size: 2.3rem; */
+}
+
+/* CTA SECUNDARIO */
+
+#cta-secundario {
+    background-image: url('../img/leochaves_show.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 637px;
+}
+#cta-secundario h2 {
+    font-weight: bold !important;
+    /* font-size: 2.3rem; */
+    
+}
+#cta-secundario>div{
+    min-height: 637px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* CTA CADASTRO */
+
+#cta-cadastro{
+    background: #000000;
+}
+
+#cta-cadastro h2, h5 {
+    font-weight: bold !important;
+}
+
+#cta-cadastro h5 {
+    font-weight: 300 !important;
+    color: #FFD700;
+}
+
+
+/* Form */
+#mc-embedded-subscribe {
+    margin: 0px !important;
+}
+#mc-embedded-subscribe input {
+    width: 100% !important;
+}
+/* Botão */
+.btn-principal {
+    background-color: #FFD700;
+    color: #000000;
+    text-transform: none;
+    padding: 0.75rem 1.6875rem 0.6875rem !important;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.btn-principal:hover{
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+.btn-cadastrar {
+    background-color: #FFD700;
+    color: #000000;
+    text-transform: none;
+    padding: 0.75rem 1.6875rem 0.6875rem !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.btn-cadastrar:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
